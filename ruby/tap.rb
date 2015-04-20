@@ -20,7 +20,6 @@ class GeoSystem
   def add_distance location, coordinates_to
     location.tap { |o| o.distance_to(coordinates_to) }
   end
-
 end
 
 class User::Factory
